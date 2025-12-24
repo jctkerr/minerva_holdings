@@ -14,6 +14,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://minervaholdco.com"),
   title: {
     default: "Minerva Holdings | Your Legal Backbone",
     template: "%s | Minerva Holdings",
