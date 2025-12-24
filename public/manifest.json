@@ -1,0 +1,21 @@
+{
+  "name": "Minerva Holdings",
+  "short_name": "Minerva",
+  "description": "AI-native managed services for law firms. Your Legal Backbone.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#020617",
+  "icons": [
+    {
+      "src": "/Minerva_Holdings_Logo_favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/Minerva_Holdings_Logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

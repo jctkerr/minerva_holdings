@@ -1,0 +1,6 @@
+# Minerva Holdings - robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://minervaholdco.com/sitemap.xml
