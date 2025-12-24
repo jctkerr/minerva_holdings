@@ -277,7 +277,7 @@ export default function Hero() {
                     transition={{ delay: 0.4, duration: 0.8 }}
                     className="mx-auto mt-6 max-w-xl text-base sm:text-lg font-light text-slate-400 md:text-xl"
                 >
-                    AI-native managed services for law firms.
+                    AI-native legal operations. Working with your trusted counsel.
                 </motion.p>
 
                 {/* CTA Button */}

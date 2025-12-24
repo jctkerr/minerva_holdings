@@ -15,7 +15,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Minerva Holdings",
-  description: "AI-native managed services for law firms. Crisis response, data protection, and IP portfolio management.",
+  description: "AI-native legal operations for corporate legal teams, working alongside trusted counsel. Privacy, cyber response, forensics, and IP management at scale.",
   url: "https://minervaholdco.com",
   logo: "https://minervaholdco.com/Minerva_Holdings_Logo.png",
   sameAs: [],
@@ -32,9 +32,10 @@ const jsonLd = {
     "Cyber Incident Response",
     "Digital Forensics",
     "DPO-as-a-Service",
+    "Data Privacy Operations",
     "Trademark Docketing",
     "IP Portfolio Management",
-    "Legal Managed Services",
+    "Legal Operations",
   ],
 };
 

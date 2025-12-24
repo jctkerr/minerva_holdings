@@ -19,20 +19,20 @@ export const metadata: Metadata = {
     template: "%s | Minerva Holdings",
   },
   description:
-    "AI-native managed services for law firms. Minerva provides crisis response, data protection, and IP portfolio management—reducing costs by 40% while scaling globally.",
+    "AI-native legal operations for corporate legal teams, working alongside trusted counsel. Privacy, cyber response, forensics, and IP portfolio management at scale.",
   keywords: [
     "legal managed services",
     "AI legal services",
-    "law firm services",
+    "corporate legal operations",
+    "legal ops",
     "cyber incident response",
     "digital forensics",
     "DPO as a service",
+    "data privacy operations",
     "trademark docketing",
     "IP portfolio management",
-    "legal operations",
     "legal tech",
-    "ALSP",
-    "alternative legal service provider",
+    "law firm partner",
   ],
   authors: [{ name: "Minerva Holdings" }],
   creator: "Minerva Holdings",
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     siteName: "Minerva Holdings",
     title: "Minerva Holdings | Your Legal Backbone",
     description:
-      "AI-native managed services for law firms. Crisis response, data protection, and IP portfolio management—40% cost reduction, 3x faster response, 50+ countries.",
+      "AI-native legal operations for corporate legal teams, working alongside trusted counsel. Privacy, cyber response, forensics, and IP management at scale.",
     images: [
       {
         url: "/Minerva_Holdings_Logo.png",
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Minerva Holdings | Your Legal Backbone",
     description:
-      "AI-native managed services for law firms. Crisis response, data protection, and IP portfolio management.",
+      "AI-native legal operations. Privacy, cyber response, forensics, and IP management at scale.",
     images: ["/Minerva_Holdings_Logo.png"],
     creator: "@minervaholdco",
   },
