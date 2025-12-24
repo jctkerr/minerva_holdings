@@ -125,7 +125,7 @@ export default function MarketGap() {
     const x = useTransform(scrollYProgress, [0, 1], ["0%", "-75%"]);
 
     return (
-        <section ref={targetRef} className="relative h-[400vh] text-white">
+        <section ref={targetRef} className="relative h-[300vh] md:h-[400vh] text-white">
             <div className="sticky top-0 flex h-screen items-center overflow-hidden">
                 <motion.div style={{ x }} className="flex">
                     {content.map((item, i) => (
@@ -145,7 +145,7 @@ export default function MarketGap() {
                                     {/* Card Decoration */}
                                     <div className="absolute left-0 top-0 h-px w-full bg-minerva-gold" />
 
-                                    <div className="flex h-full flex-col justify-between p-8 md:p-12">
+                                    <div className="flex h-full flex-col justify-between p-6 sm:p-8 md:p-12">
                                         <div>
                                             <div className="mb-6 flex items-center gap-3 opacity-40">
                                                 <div className="h-1.5 w-1.5 rounded-full bg-black" />
@@ -153,7 +153,7 @@ export default function MarketGap() {
                                                     {item.id === 'intro' ? 'EXHIBIT A' : `EXHIBIT 0${i}`}
                                                 </span>
                                             </div>
-                                            <h3 className="font-serif text-2xl font-medium leading-tight md:text-3xl">
+                                            <h3 className="font-serif text-xl sm:text-2xl font-medium leading-tight md:text-3xl">
                                                 {item.cardTitle}
                                             </h3>
                                         </div>
@@ -187,7 +187,7 @@ export default function MarketGap() {
                                         initial={{ opacity: 0, x: 20 }}
                                         whileInView={{ opacity: 1, x: 0 }}
                                         transition={{ duration: 0.8, delay: 0.3 }}
-                                        className="mb-6 font-serif text-5xl font-light text-white md:text-6xl lg:text-7xl"
+                                        className="mb-6 font-serif text-3xl sm:text-5xl font-light text-white md:text-6xl lg:text-7xl"
                                     >
                                         {item.title}
                                     </motion.h2>

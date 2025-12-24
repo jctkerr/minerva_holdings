@@ -18,11 +18,11 @@ export default function Footer() {
     return (
         <footer className="relative w-full overflow-hidden bg-minerva-void">
             {/* CTA Section */}
-            <div className="relative py-32 px-6">
+            <div className="relative py-16 sm:py-24 md:py-32 px-4 sm:px-6">
                 {/* Geometric background */}
                 <div className="absolute inset-0 pointer-events-none overflow-hidden">
                     <svg
-                        className="absolute right-1/4 top-1/2 -translate-y-1/2 w-[500px] h-[500px] opacity-[0.05]"
+                        className="absolute right-1/4 top-1/2 -translate-y-1/2 w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] md:w-[500px] md:h-[500px] opacity-[0.05]"
                         viewBox="0 0 200 200"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -91,7 +91,7 @@ export default function Footer() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.8, delay: 0.1 }}
-                        className="mt-8 font-serif text-4xl text-white md:text-5xl lg:text-6xl font-light"
+                        className="mt-8 font-serif text-2xl sm:text-4xl text-white md:text-5xl lg:text-6xl font-light"
                     >
                         Ready to strengthen
                         <br />

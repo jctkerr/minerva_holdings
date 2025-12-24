@@ -50,11 +50,11 @@ const lineVariants = {
 
 export default function Financials() {
     return (
-        <section className="relative flex min-h-screen w-full items-center justify-center bg-minerva-void py-32 px-6 overflow-hidden">
+        <section className="relative flex min-h-screen w-full items-center justify-center bg-minerva-void py-16 sm:py-24 md:py-32 px-4 sm:px-6 overflow-hidden">
             {/* Geometric background */}
             <div className="absolute inset-0 pointer-events-none">
                 <svg
-                    className="absolute left-0 top-1/2 -translate-y-1/2 w-[400px] h-[600px] opacity-[0.08]"
+                    className="absolute left-0 top-1/2 -translate-y-1/2 w-[200px] h-[300px] sm:w-[300px] sm:h-[450px] md:w-[400px] md:h-[600px] opacity-[0.08]"
                     viewBox="0 0 200 300"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -105,7 +105,7 @@ export default function Financials() {
 
                 {/* Right side geometric */}
                 <svg
-                    className="absolute right-0 top-1/3 w-[300px] h-[400px] opacity-[0.06]"
+                    className="absolute right-0 top-1/3 w-[150px] h-[200px] sm:w-[200px] sm:h-[300px] md:w-[300px] md:h-[400px] opacity-[0.06]"
                     viewBox="0 0 150 200"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -165,7 +165,7 @@ export default function Financials() {
                                 <div className="hidden md:block absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 h-16 w-px bg-white/10" />
                             )}
 
-                            <h3 className="font-serif text-6xl md:text-7xl lg:text-8xl font-light text-white">
+                            <h3 className="font-serif text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-light text-white">
                                 <AnimatedValue value={stat.value} />
                                 <span className="text-minerva-gold">{stat.suffix}</span>
                             </h3>
@@ -191,7 +191,7 @@ export default function Financials() {
                     whileInView={{ opacity: 1 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.8, delay: 0.7 }}
-                    className="mt-12 font-serif text-2xl md:text-3xl text-white font-light"
+                    className="mt-12 font-serif text-xl sm:text-2xl md:text-3xl text-white font-light"
                 >
                     Working alongside your team.
                     <br />

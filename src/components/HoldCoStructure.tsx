@@ -25,7 +25,7 @@ const services = [
 
 export default function HoldCoStructure() {
     return (
-        <section className="relative min-h-screen w-full bg-minerva-void py-32 px-6">
+        <section className="relative min-h-screen w-full bg-minerva-void py-16 sm:py-24 md:py-32 px-4 sm:px-6">
             {/* Background geometric lines */}
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
                 <svg
@@ -49,9 +49,9 @@ export default function HoldCoStructure() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.8 }}
-                    className="text-center mb-24"
+                    className="text-center mb-12 sm:mb-16 md:mb-24"
                 >
-                    <h2 className="font-serif text-4xl text-white md:text-5xl lg:text-6xl">
+                    <h2 className="font-serif text-2xl sm:text-4xl text-white md:text-5xl lg:text-6xl">
                         What We Do
                     </h2>
                 </motion.div>
@@ -78,7 +78,7 @@ export default function HoldCoStructure() {
                             </span>
 
                             {/* Title */}
-                            <h3 className="mt-4 font-serif text-2xl text-white md:text-3xl">
+                            <h3 className="mt-4 font-serif text-xl sm:text-2xl text-white md:text-3xl">
                                 {service.title}
                             </h3>
 

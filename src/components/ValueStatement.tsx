@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function ValueStatement() {
     return (
-        <section className="relative w-full bg-[#FAF9F6] py-32 px-6">
+        <section className="relative w-full bg-[#FAF9F6] py-16 sm:py-24 md:py-32 px-4 sm:px-6">
             <div className="mx-auto max-w-4xl">
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
@@ -14,7 +14,7 @@ export default function ValueStatement() {
                     className="text-center"
                 >
                     {/* First paragraph */}
-                    <p className="font-serif text-3xl md:text-4xl lg:text-5xl leading-relaxed md:leading-relaxed lg:leading-relaxed text-slate-900">
+                    <p className="font-serif text-xl sm:text-2xl md:text-4xl lg:text-5xl leading-relaxed md:leading-relaxed lg:leading-relaxed text-slate-900">
                         <span className="font-medium">Minerva is your legal backbone</span>
                         <br />
                         <span className="italic text-slate-400 font-light">that responds, protects, and scales,</span>
@@ -33,12 +33,12 @@ export default function ValueStatement() {
                     </p>
 
                     {/* Divider */}
-                    <div className="my-16 flex justify-center">
+                    <div className="my-8 sm:my-12 md:my-16 flex justify-center">
                         <div className="h-px w-16 bg-slate-300" />
                     </div>
 
                     {/* Second paragraph */}
-                    <p className="font-serif text-3xl md:text-4xl lg:text-5xl leading-relaxed md:leading-relaxed lg:leading-relaxed text-slate-900">
+                    <p className="font-serif text-xl sm:text-2xl md:text-4xl lg:text-5xl leading-relaxed md:leading-relaxed lg:leading-relaxed text-slate-900">
                         <span className="italic text-slate-400 font-light">We understand your practice,</span>
                         <br />
                         <span className="font-medium">preserve what makes you{" "}

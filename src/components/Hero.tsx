@@ -58,7 +58,7 @@ function GeometricLines() {
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
             {/* Right side composition - asymmetric */}
             <motion.svg
-                className="absolute right-0 top-1/2 -translate-y-1/2 w-[600px] h-[600px] md:w-[800px] md:h-[800px] opacity-[0.2]"
+                className="absolute right-0 top-1/2 -translate-y-1/2 w-[300px] h-[300px] sm:w-[500px] sm:h-[500px] md:w-[600px] md:h-[600px] lg:w-[800px] lg:h-[800px] opacity-[0.2]"
                 viewBox="0 0 400 400"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -201,7 +201,7 @@ function GeometricLines() {
 
             {/* Left side - smaller, subtle */}
             <motion.svg
-                className="absolute left-0 bottom-0 w-[200px] h-[200px] md:w-[300px] md:h-[300px] opacity-[0.1]"
+                className="absolute left-0 bottom-0 w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] md:w-[300px] md:h-[300px] opacity-[0.1]"
                 viewBox="0 0 200 200"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -244,7 +244,7 @@ function GeometricLines() {
  */
 export default function Hero() {
     return (
-        <section className="relative flex h-screen w-full flex-col items-center justify-center bg-minerva-void px-6 overflow-hidden">
+        <section className="relative flex h-screen w-full flex-col items-center justify-center bg-minerva-void px-4 sm:px-6 overflow-hidden">
             {/* Geometric background */}
             <GeometricLines />
 
@@ -265,7 +265,7 @@ export default function Hero() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, ease: "easeOut", delay: 0.1 }}
-                    className="font-serif text-5xl font-light leading-tight text-white md:text-7xl lg:text-8xl"
+                    className="font-serif text-3xl sm:text-5xl font-light leading-tight text-white md:text-7xl lg:text-8xl"
                 >
                     Your Legal Backbone
                 </motion.h1>
@@ -275,7 +275,7 @@ export default function Hero() {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.4, duration: 0.8 }}
-                    className="mx-auto mt-6 max-w-xl text-lg font-light text-slate-400 md:text-xl"
+                    className="mx-auto mt-6 max-w-xl text-base sm:text-lg font-light text-slate-400 md:text-xl"
                 >
                     AI-native managed services for law firms.
                 </motion.p>
